@@ -1,0 +1,27 @@
+/* Apply styles to the container */
+/* Apply styles to the vertical scrollbar of the container */
+.manga-carousel::-webkit-scrollbar {
+    width: 5px;
+    height: 6px;
+    /* Set the width of the scrollbar */
+}
+
+/* Handle (the draggable scrolling element) */
+.manga-carousel::-webkit-scrollbar-thumb {
+    background-color: #ff7d7d;
+    /* Set the color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Set the border radius of the scrollbar thumb */
+}
+
+/* Track (the area on which the thumb moves) */
+.manga-carousel::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Set the color of the scrollbar track */
+}
+
+/* Handle on hover */
+.manga-carousel::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Set the color of the scrollbar thumb on hover */
+}
